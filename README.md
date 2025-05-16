@@ -26,18 +26,22 @@
 </p>
 
 <p align="center">
+  <a href="https://atcoder.jp/users/alkayesrifat">
+    <img src="https://img.shields.io/badge/AtCoder-alkayesrifat-1f8acb?style=for-the-badge" />
+  </a>
   <a href="https://vjudge.net/user/alkayesrifat">
     <img src="https://img.shields.io/badge/Virtual Judge-alkayesrifat-0A95FF?style=for-the-badge" />
   </a>
   <a href="https://www.interviewbit.com/profile/alkayesrifat">
     <img src="https://img.shields.io/badge/InterviewBit-alkayesrifat-00758F?style=for-the-badge" />
   </a>
-  <a href="https://lightoj.com/user/alkayesrifat">
-    <img src="https://img.shields.io/badge/LightOJ-alkayesrifat-C41E3A?style=for-the-badge" />
-  </a>
+
 </p>
 
 <p align="center">
+    <a href="https://lightoj.com/user/alkayesrifat">
+    <img src="https://img.shields.io/badge/LightOJ-alkayesrifat-C41E3A?style=for-the-badge" />
+  </a>
   <a href="https://www.hackerearth.com/@alkayesrifat47">
     <img src="https://img.shields.io/badge/HackerEarth-alkayesrifat-323754?style=for-the-badge&logo=hackerearth" />
   </a>
@@ -69,10 +73,12 @@ Feel free to explore!
 | 🟢 [HackerRank](https://www.hackerrank.com/alkayesrifat47) | `alkayesrifat47` |
 | 🟣 [Coding Ninjas (CodeStudio / Naukri)](https://www.codingninjas.com/studio/profile/alkayesrifat) | `alkayesrifat` |
 | 🟢 [GeeksforGeeks](https://auth.geeksforgeeks.org/user/alkayesrifat) | `alkayesrifat` |
+| ⚫ [AtCoder](https://atcoder.jp/users/alkayesrifat) | `alkayesrifat` |
 | 🔵 [Virtual Judge](https://vjudge.net/user/alkayesrifat) | `alkayesrifat` |
 | 🟤 [InterviewBit](https://www.interviewbit.com/profile/alkayesrifat) | `alkayesrifat` |
 | 🔴 [LightOJ](https://lightoj.com/user/alkayesrifat) | `alkayesrifat` |
 | 🔵 [HackerEarth](https://www.hackerearth.com/@alkayesrifat47) | `alkayesrifat47` |
+
 
 📊 **Unified Profile:** [View all platforms on Clist](https://clist.by/coder/alkayesrifat/)
 
