@@ -83,4 +83,12 @@ Feel free to explore!
 📊 **Unified Profile:** [View all platforms on Clist](https://clist.by/coder/alkayesrifat/)
 
 ---
+<p align="center">
+  <a href="https://codeforces.com/profile/alkayesrifat">
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=alkayesrifat&theme=github_dark&disable_animations=false&show_icons=true&force_username=true" />
+  </a>
+  <a href="https://leetcode.com/alkayesrifat/">
+    <img src="https://leetcard.jacoblin.cool/alkayesrifat?theme=dark&font=changa&ext=heatmap" />
+  </a>
+</p>
 
