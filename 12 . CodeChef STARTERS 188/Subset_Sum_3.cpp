@@ -1,0 +1,70 @@
+/**
+ * All Praise to Allah
+ * ---------------------
+ * Author: Al Kayes Rifat
+ * Created: 2025-05-28   20:44:26
+ * Portfolio  : https://alkayesrifat.netlify.app/
+ * ---------------------
+ */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        int n;
+        cin >> n;
+
+        vector<int> v(n);
+
+        long long int totalsum = 0;
+
+        for (int i = 0; i < n; i++)
+        {
+            cin >> v[i];
+            totalsum = totalsum + v[i];
+        }
+        int flag = 0;
+        if (totalsum % 3 == 0)
+        {
+            cout << "Yes" << endl;
+        }
+        else
+        {
+            long long sum = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                sum = 0;
+                for (int j = i; j < n; j++)
+                {
+                    sum = sum + v[j];
+                    if (sum % 3 == 0)
+                    {
+                        flag = 1;
+                        break;
+                    }
+                }
+            }
+            if (flag)
+            {
+                cout << "YES" << endl;
+            }
+            else
+            {
+                cout << "No" << endl;
+            }
+        }
+    }
+
+    return 0;
+}
