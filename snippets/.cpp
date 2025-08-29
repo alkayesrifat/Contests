@@ -63,9 +63,9 @@
       "    cin.tie(nullptr);",
       "",
       
-      "    int test_case ;",
-      "    cin >>  test_case ;",
-      "    while(test_case--)",
+      "    int alkayesrifat ;",
+      "    cin >>  alkayesrifat ;",
+      "    while(alkayesrifat--)",
       "    {",
       "        $0",
       "",
