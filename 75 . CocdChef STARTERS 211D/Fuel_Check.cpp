@@ -1,0 +1,41 @@
+/**
+ * All Praise to Allah
+ * ---------------------
+ * Author     : Al Kayes Rifat
+ * Portfolio  : alkayesrifat.netlify.app 
+ * ---------------------
+ */
+
+#include<bits/stdc++.h>
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+using namespace std;
+template <typename T> using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;// - Use 'less<T>' for set, 'less_equal<T>' for multiset
+#define ll long long int
+#define ull unsigned long long
+#define endl "\n"
+
+int main(){
+
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
+    ll a , b;
+    cin >>a >>b;
+    
+    ll c =a *b;
+    
+    if(c >= 100){
+        cout << "Yes" << endl;
+    }
+    else{
+        cout <<"No" << endl;
+    }
+
+
+
+
+
+    return 0;
+}
