@@ -1,0 +1,69 @@
+/**
+ * All Praise to Allah
+ * ---------------------
+ * Author     : Al Kayes Rifat
+ * Portfolio  : alkayesrifat.netlify.app
+ * Date       : 21/01/2026 (Wednesday)
+ * Time       : 20:42 
+ * ---------------------
+ */
+
+#include<bits/stdc++.h>
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+using namespace std;
+#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>// - Use 'less<T>' for set, 'less_equal<T>' for multiset
+#define ll long long int
+#define ull unsigned long long
+#define endl "\n"
+
+int main(){
+
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int alkayesrifat ;
+    cin >>  alkayesrifat ;
+    while(alkayesrifat--)
+    {
+        int n ;
+        cin >> n;
+
+        vector<int>v(n);
+        int sortedd = 1;
+
+        for(int i  = 0 ; i < n ; i++){
+            cin >> v[i];
+            if(v[i] != i+1)sortedd =0;
+
+        }
+        if(sortedd){
+            cout << 0 << endl;
+            continue;
+        }
+
+        int last = v[n-1];
+
+        if(last == n){
+           
+
+            for(int i  = n - 2 ; i >= 0 ; i--){
+                if(last != v[i] + 1){
+
+                    cout << v[i] << endl;
+                    break;
+    
+                }
+                last = v[i];
+            }
+        }
+        else{
+            cout << last << endl;
+        }
+
+
+    }
+
+    return 0;
+}
